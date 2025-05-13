@@ -1,0 +1,359 @@
+<!doctype html>
+<html class="dark" id="htmlTag">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assests/font/fontawesome-free-6.5.2-web/css/all.min.css">
+  <title>tailwind project</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900">
+  <!-- header section -->
+  <header class="px-2 py-2 md:py-4 overflow-hidden">
+    <nav class="container mx-auto flex justify-between items-center dark:text-white">
+      <div>
+        <img src="assests/logo/header-logo.png" alt="logo" class="w-10 md:w-fit dark:bg-white">
+      </div>
+      
+      <ul class="hidden md:flex items-center gap-4 md:gap-10 text-xs md:text-base font-semibold">
+        <li class="list-none hover:text-[#F44335] transition"><a href="#">Home</a></li>
+        <li class="list-none hover:text-[#F44335] transition"><a href="#">About Us</a></li>
+        <li class="list-none hover:text-[#F44335] transition"><a href="#">Upskill</a></li>
+        <li class="list-none hover:text-[#F44335] transition"><a href="#">Contact us </a></li>
+      </ul>
+      <div class="md:flex items-center gap-2 md:gap-4">
+        <button class="bg-[#F44335] text-xs md:text-base font-semibold px-2 md:px-4 py-1 md:py-2.5 rounded-md text-white hover:bg-[rgb(149,17,8)] transition hover:scale-105 hover:translate-y-2 duration-300">Register Interest</button>
+        <button class="hover:scale-105 duration-300" id="switch">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:size-8 dark:stroke-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+          </svg>
+          
+        </button>
+      </div>
+    </nav>
+  </header>
+  <!-- banner section -->
+   <section class="md:py-14 md:px-8 px-2 py-2 bg-[#FAFAFA] overflow-hidden">
+    <div class="container mx-auto grid grid-cols-12 gap-8">
+      <div class="md:col-span-6 col-span-12 mb-4 md:mb-0 md:ml-20">
+        <h2 class="text-[#2D3142] text-xs md:text-base">Discover <span class="text-red-500 mb-5"> - </span>Interact <span class="text-red-500"> - </span>Engage </h2>
+        <h1 class="text-2xl md:text-6xl font-bold text-[#072125] mb-4 md:mb-10">Google <br> 
+          <span class="text-[#F44335;]">IT Support</span>  <br>Certificate</h1>
+        <p class="text-xs md:text-base text-[#072125] mb-5 md:mb-10 text-wrap">This is your path to a career in IT. In this program, you’ll learn in- <br>demand skills with no degree or experience required. </p>
+        
+        <div class="flex gap-2 md:gap-10 mb-5 md:mb-8">
+          <div class="text-center">
+            <span class="text-[18px] md:text-2xl text-[#00FF84] font-bold">438</span>
+            <h4 class="text-xs md:text-lg text-[#2D3142]">Videos </h4>
+          </div>
+          <div class="text-center">
+            <span class="text-[18px] md:text-2xl text-[#00FF84] font-bold">151</span>
+            <h4 class="text-xs md:text-lg text-[#2D3142]">Readings</h4>
+          </div>
+          <div class="text-center">
+            <span class="text-[18px] md:text-2xl text-[#00FF84] font-bold">108 </span>
+            <h4 class="text-xs md:text-lg text-[#2D3142]">Quizzes</h4>
+          </div>
+          <div class="text-center">
+            <span class="text-[18px] md:text-2xl text-[#00FF84] font-bold">24</span>
+            <h4 class="text-xs md:text-lg text-[#2D3142]">Exercises</h4>
+          </div>
+          <div class="text-center">
+            <span class="text-[18px] md:text-2xl text-[#00FF84] font-bold">4</span>
+            <h4 class="text-xs md:text-lg text-[#2D3142]">Assigments</h4>
+          </div>
+        </div>
+        <div class="flex flex-row items-center gap-4 mb-5 md:mb-0">
+          <button class="bg-[#F44335] text-xs md:text-base font-semibold px-4 lg:px-9 py-1 md:py-2 lg:py-4 rounded-md text-white hover:bg-[rgb(149,17,8)] transition hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer">Sign up</button>
+          <button class="bg-white border text-xs md:text-base font-semibold px-4 lg:px-9 py-1 md:py-2 lg:py-4 rounded-md text-[#072125] hover:bg-[#F44335] hover:text-white transition hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer">Learn more</button>
+        </div>
+      </div>
+      <div class="md:col-span-6 col-span-12 mb-4 md:mb-0 md:mr-20">
+        <img src="assests/image/banner-img.png" alt="img" class="w-screen md:w-fit">
+      </div>
+    </div>
+  </section>
+  <!-- google section -->
+   <section>
+      <div class="container mx-auto block md:grid grid-cols-12 items-center px-2 py-4 gap-2 md:px-14 md:py-4 overflow-hidden dark:text-white">
+        <h3 class="text-sm md:text-lg md:py-6 pr-10 lg:border-r-2  border-r-gray-200 md:col-span-6 lg:col-span-3 md:mb-5">Pave your path to career success by <br> gaining  a  professional  Google <br>certificate with the support of C4U</h3>
+        <img src="assests/image/google/img2.png" alt="img" class="lg:border-r-2  border-r-gray-200 pr-10 md:col-span-6 lg:col-span-3 md:mb-5 dark:bg-white">
+        <img src="assests/image/google/img3.png" alt="img" class="lg:border-r-2  border-r-gray-200 pr-10 md:col-span-6 lg:col-span-3 mb-5 dark:bg-white" >
+        <img src="assests/image/google/img4.png" alt="img" class="md:col-span-6 lg:col-span-3 mb-5 dark:bg-white">
+      </div>
+   </section>
+   <!-- learn section -->
+   <section class="px-2 py-2 md-py-8 lg:py-20 bg-[#FAFAFA] overflow-hidden">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 md:gap-8">
+        <div class="col-span-12 lg:col-span-6 mb-5 p-4 md:p-8 shadow-lg shadow-gray-400 rounded-3xl w-full h-fit lg:min-h-[599px] object-cover bg-white">
+          
+          <h2 class="heading">What you will learn</h2>
+          <div class="flex items-center gap-5 py-5">
+            <div class="icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <h4 class="description w-[200px] md:w-[500px]">Gain skills required to succeed in an entry-level IT job</h4>
+            
+          </div>
+          <div class="flex items-center gap-5 py-5">
+            <div class="icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <h4 class="description w-[200px] md:w-[500px]">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</h4>
+            
+          </div>        
+          <div class="flex items-center gap-5 py-5">
+            <div class="icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <h4 class="description w-[200px] md:w-[500px]">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</h4>
+            
+          </div>
+          <div class="flex items-center gap-5 py-5">
+            <div class="icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <h4 class="description w-[200px] md:w-[500px]">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</h4>
+            
+          </div>
+          
+          
+        </div>
+        <div class="col-span-12 lg:col-span-6 p-4 md:p-8 shadow-lg shadow-gray-400 w-full h-fit lg:min-h-[599px] object-cover rounded-3xl bg-white">
+          <img src="assests/image/learn/img.png" alt="img" class="w-full h-44 object-cover md:h-fit">
+          <h2 class="heading">Skills you will gain </h2>
+          <div class="flex items-center flex-wrap gap-4 pt-8">
+            <span class="items">Debugging</span>
+            <span class="items">Customer Service</span>
+            <span class="items">Customer Support</span>
+            <span class="items">Domain Name System (DNS)</span>
+            <span class="items">Network Model</span>
+            <span class="items">Linux</span>
+            <span class="items">Encryption Algorithms and Techniques</span>
+            <span class="items">Network Protocols</span>
+            <span class="items">Ipv4</span>
+            <span class="items">Troubleshooting</span>
+            <span class="items">Binary Code</span>
+            <span class="items">Cloud Computing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- certificate section -->
+   <section class="px-2 py-2 md:py-8 lg:py-20 bg-[#FAFAFA] overflow-hidden">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-12 md:gap-8">
+        <div class="col-span-12 lg:col-span-6 mb-5 p-4 md:p-8 shadow-lg shadow-gray-400 rounded-2xl w-full h-fit lg:h-[399px] object-cover bg-white">
+          
+          <h2 class="heading">Jobs Assocaited with Certificate </h2>
+          <div class="flex items-start justify-between md:pt-5 pt-4">
+            <div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Database administrator</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Tech support specialist</h4>
+                
+              </div>        
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">IT specialist</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Systems analyst</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Network engineer</h4>
+                
+              </div>
+            </div>
+            <div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Database administrator</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Tech support specialist</h4>
+                
+              </div>        
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">IT specialist</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Systems analyst</h4>
+                
+              </div>
+              <div class="flex items-center gap-2 py-3">
+                <div class="arrow">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <h4 class="description">Network engineer</h4>
+                
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+          <img src="assests/image/certificate/img.png" alt="img" class="shadow-lg rounded-2xl  w-full lg:h-[399px] h-fit object-cover">
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- course section -->
+   <section class="bg-white overflow-hidden mt-3">
+    <div class="container mx-auto py-2 px-2 md:py-10 relative">
+      <h2 class="text-3xl md:text-7xl font-bold w-full md:w-3/4">There are 5 Courses in this Professional Certificate</h2>
+      <div class="block text-center lg:flex md:items-center gap-4 md:gap-x-20 md:pt-20 pt-10 pb-4 md:pb-16 border-b-2 border-b-red-100">
+        <h3 class="items2">Course  1 </h3>
+        <h3 class="items2">Course  2 </h3>
+        <h3 class="items2">Course  3 </h3>
+        <h3 class="items2">Course  4</h3>
+        <h3 class="items2">Course  5</h3>
+        
+      </div>
+      <img src="assests/image/course/img.png" alt="img" class="md:absolute top-2.5 right-20 z-10" style="display: block;">
+    </div>
+   </section>
+   <!-- image section -->
+    <section class="py-2 px-2 md:py-14 bg-[#FAFAFA]">
+      <div class="container mx-auto md:relative">
+        <img src="assests/image/support/img1.png" alt="img" class="w-full h-fit">
+      <img src="assests/image/support/Vector1.png" alt="img" class="md:absolute md:-bottom-56 md:right-60 md:z-20">
+      </div>
+    </section>
+    <section class="py-2 px-2 md:py-40 bg-[#FAFAFA]">
+      <div class="container mx-auto relative z-10">
+        <img src="assests/image/support/img2.png" alt="img" class="w-full h-fit">
+      <img src="assests/image/support/Vector2.png" alt="img" class="md:absolute -bottom-80 right-60 -z-10">
+      </div>
+    </section>
+    <section class="py-2 px-2 md:py-40 bg-[#FAFAFA]">
+      <div class="container mx-auto relative z-10">
+        <img src="assests/image/support/img1.png" alt="img" class="w-full h-fit">
+      <img src="assests/image/support/Vector3.png" alt="img" class="md:absolute -bottom-96 right-60 -z-10">
+      </div>
+    </section>
+    <section class="py-2 px-2 md:py-56 bg-[#FAFAFA]">
+      <div class="container mx-auto relative z-10">
+        <img src="assests/image/support/img4.png" alt="img" class="w-full h-fit">
+      <img src="assests/image/support/Vector4.png" alt="img" class="md:absolute -bottom-96 right-60 -z-10">
+      </div>
+    </section>
+    <section class="py-2 px-2 md:py-40 bg-[#FAFAFA]">
+      <div class="container mx-auto">
+        <img src="assests/image/support/img5.png" alt="img" class="w-full h-fit">
+      
+      </div>
+    </section>
+    <section style="background-image: url(./assests/image/quoate/bg-img.png);" class="bg-no-repeat bg-cover w-full h-fit md:h-[557px] relative">
+      
+      <div class="w-250 md:max-w-[590px] h-fit bg-white rounded-md absolute left-0 top-10 md:left-20 lg:l-80 md:top-28 py-2 md:py-10 px-2 md:px-10 m-2">
+      <img src="assests/image/quoate/quoate.png" alt="img" class="w-[41px] h-[33px] text-[#F9CCC7] mb-2 md:mb-4">
+      <h3 class="text-lg md:text-xl text-[#072125] font-bold mb-2 md:mb-4">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h3>
+      <p class="text-sm md:text-base text-[#F9CCC7] mb-2">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+      
+      </div>
+      
+    </section>
+    <footer class="px-2 py-2 md:py-14">
+      <div class="container mx-auto">
+        <div class="block md:flex md:justify-between items-start">
+          <div class="mb-4">
+            <img src="assests/logo/header-logo.png" alt="logo" class="dark:bg-white mb-4">
+              <address class="not-italic text-base text-[#20484F] dark:text-white">Level39 <br>
+              One Canada Square, <br>
+              Canary Wharf, <br> 
+              London, <br>
+              E14 5AB</address>
+          </div>
+          <div class="mb-4">
+            <h4 class="footer">Home</h4>
+            <ul>
+              <li class="link"><a href="#">Collaborations</a></li>
+              <li class="link"><a href="#">Statistics</a></li>
+              <li class="link"><a href="#">How It Works </a></li>
+              <li class="link"><a href="#">Testimonials </a></li>
+              
+            </ul>
+          </div>
+          <div class="mb-4">
+            <h4 class="footer">About Us</h4>
+            <ul>
+              
+              <li class="link"><a href="#">Who We Are</a></li>
+              <li class="link"><a href="#">Mission statement</a></li>
+              <li class="link"><a href="#">Our Vision</a></li>
+              <li class="link"><a href="#">The  Team </a></li>
+            </ul>
+          </div>
+          <div class="mb-4">
+            <h4 class="footer">Upskill</h4>
+            <ul>
+              <li class="link"><a href="#">It Support</a></li>
+              <li class="link"><a href="#">Project Managment</a></li>
+              <li class="link"><a href="#">Data Analysts</a></li>
+              <li class="link"><a href="#">Ux Design</a></li>
+            </ul>
+          </div>
+          <div class="mb-4">
+            <h4 class="footer">Contact Us </h4>
+            <ul>
+              <li class="link"><a href="#">Your message</a></li>
+              <li class="link"><a href="#">Email</a></li>
+              <li class="link"><a href="#">Phone number</a></li>
+              <li class="link"><a href="#">Linkedin</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      <hr class="mt-10">
+        <div>
+          <h4 class="text-center text-sm text-[#20484F] pt-8  dark:text-white">Copyright 2022 Creatives For You LTD</h4>
+        </div>
+    </footer>
+
+
+    <script>
+      const htmlTag = document.getElementById("htmlTag");
+      document.getElementById("switch").addEventListener("click", function(){
+        htmlTag.classList.toggle("dark");
+      })
+    </script>
+</body>
+</html>

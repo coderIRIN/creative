@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+@layer utilities{
+    
+    .heading{
+        @apply text-lg md:text-2xl font-semibold pb-2 md:pb-5 border-b border-b-red-300;
+    }
+    .icon{
+        @apply w-[36px] h-[36px] rounded-full text-sm bg-[#F9CCC7] text-[#F44335] flex justify-center items-center;
+    }
+    .description{
+        @apply text-sm md:text-lg text-[#181818];
+    }
+    .items{
+        @apply text-sm md:text-base border border-red-300 px-4 py-0.5 rounded-full;
+    }
+    .arrow{
+        @apply size-5 rounded-full text-sm bg-[#F9CCC7] flex justify-center items-center;
+    }
+    .items2{
+        @apply text-base md:text-2xl border border-gray-300 px-7 py-0.5 rounded-full hover:bg-[#00FF84] transition cursor-pointer mb-2;
+    }
+    .footer{
+        @apply text-base md:text-xl text-[#20484F] font-bold mb-1  dark:text-white;
+    }
+    .link{
+        @apply text-sm md:text-base text-[#20484F] mb-0.5  dark:text-white;
+    }
+}   
